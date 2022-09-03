@@ -5,7 +5,7 @@ from starlette.requests import Request
 from starlette.templating import Jinja2Templates
 from starlette.websockets import WebSocket
 
-from websockets_actions.actions import WebSocketBroadcast
+from websockets_actions.starlette.actions import WebSocketBroadcast
 
 
 class HomePage(HTTPEndpoint):
